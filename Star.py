@@ -1,11 +1,12 @@
 import turtle as t
-t.bgcolir("black")
+t.bgcolor("black")
 t.pencolor("pink")
+t.pensize(8)
 t.up()
 t.goto(-200,0)
-t down()
+t.down()
 for i in range(5):
    t.forward(400)
-   t right(-144)
+   t.right(-144)
 t.hideturtle()
-t.done
+t.done()
